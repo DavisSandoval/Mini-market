@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Home</title>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link href="../css/materialize.min.css" rel="stylesheet" type="text/css" media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body background="../imagenes/fondo1.jpg">
+        <div class="row">
+
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+                <li class="divider"></li>
+                <li><a href="Usuario.html">Usuario</a></li>
+                <li class="divider"></li>
+                <li><a href="MantenedorProveedor.html">Proveedores</a></li>
+                <li class="divider"></li>
+                <li><a href="MantenedorProducto.html">Productos</a></li>
+               
+                <li class="divider"></li>
+                <li><a href="MantenedorVenta.html">Ventas</a></li>
+               <li class="divider"></li>
+                <li><a href="MantenedorPromocion.html">Promocion</a></li>
+              
+               <li class="divider"></li>
+               <li><a href="MantenedorCupon.html">Cupon</a></li>
+               <li class="divider"></li>
+            </ul>
+            <!--Navbar-->
+            <nav>
+                <div class="blue nav-wrapper green">
+                    <a href="#!" class="brand-logo"><img src="../imagenes/logo2.jpg"></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="IndexMantenedor.html">Home</a></li>
+                        <li><a href="../Index.html">Cerrar Sesión</a></li>
+                      
+                        <!-- Dropdown Trigger -->
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Opciones<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!--Contenido-->
+            <br>
+
+        <div class="row" >
+            <div class="col s3"></div>
+            <div class="col s6">
+                
+         
+                <div class="col s12 z-depth-4 card-panel">
+            <div class="row">
+                    <form class="col s12" >
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="first_name" type="text" class="validate red-text">
+                                <label for="first_name">Nombre</label>
+                            </div>
+                        </div>
+                        
+                        <button class="button-collapse" type="button" id="button"> Ingresar</button>
+                        
+                        
+                    </form>
+                 </div>
+                </div>
+            </div>
+                    
+                    
+            <br>
+            <br>  
+ 
+
+
+
+
+
+        </div>
+
+            <!--Import jQuery before materialize.js-->
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="../js/materialize.min.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".dropdown-button").dropdown();
+                });
+            </script> 
+
+    </body>
+
+    <!--Footer-->
+
+    <footer class="page-footer green">
+        <div class=" container">
+            <div class="row">
+                <div class="col s6">
+                    <h5 class="white-text">Mini Market Donde Maruja</h5>
+                    <p class="grey-text text-lighten-4" align="justify"> Contactenos: minimarketdondemaruja@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright black-text">
+            <div class="container">
+                 <center>Copyright 2017 © Donde Maruja</center>
+            </div>
+        </div>
+    </footer>
+</html> 

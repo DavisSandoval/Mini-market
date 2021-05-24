@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Login</title>
+        <!--Import Google Icon Font-->       
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+        <!--Import materialize.css-->      
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>        <!--Let browser know website is optimized for mobile-->        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+
+
+    </head>
+
+
+    <body background="imagenes/fondo3.jpg">
+
+
+
+        <nav>
+            <div class="nav-wrapper green">
+                <a href="#!" class="brand-logo"><img src="imagenes/logo2.png"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="registrate.html">Registrate</a></li>
+                    <li><a href="QuienesSomos.html">Quienes Somos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Contenido-->
+        <br>
+
+        <div class="row" >
+            <div class="col s3"></div>
+            <div class="col s6">
+                <!--Navbar-->
+
+
+
+                <div id="login-page" class="row">
+                    <div class="col s12 z-depth-4 card-panel">
+                        <form class="login-form">
+                            <div class="row">
+                                <div class="input-field col s12 center">
+                                    <img src="images/login-logo.png" alt="" class="circle responsive-img valign profile-image-login">
+                                    <p class="center login-form-text">Ingrese</p>
+                                </div>
+                            </div>
+                            <div class="row margin">
+                                <div class="input-field">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="icon_prefix" type="text" name="usuario">
+                                    <label for="icon_prefix">Usuario</label>   
+
+                                </div>
+                            </div>
+                            <div class="row margin">
+                                <div class="input-field col s12">
+                                    <i class="mdi-action-lock-outline prefix"></i>
+                                    <input id="password" type="password">
+                                    <label for="password">Password</label>
+                                </div>
+                            </div>
+                            <div class="row">          
+                                <div class="input-field col s12 m12 l12  login-text">
+                                    <input type="checkbox" id="remember-me">
+                                    <label for="remember-me">Recuerdame</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <a href="index.html" class="btn waves-effect waves-light col s12">Login</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6 m6 l6">
+                                    <p class="margin medium-small"><a href="registrate.html">Registrate ahora!</a></p>
+                                </div>
+                                <div class="input-field col s6 m6 l6">
+                                    <p class="margin right-align medium-small"><a href="index.html">Olvido su password ?</a></p>
+                                </div>          
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+
+            <!--Import jQuery before materialize.js-->     
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>     
+            <script type="text/javascript" src="js/materialize.min.js"></script> 
+
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('.slider').slider();
+                });
+            </script>  
+
+    </body>
+
+    <footer class="page-footer green">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <h5 class="white-text">Mini Market Donde Maruja</h5>
+                    <p class="grey-text text-lighten-4" align="justify"> Contactenos: minimarketdondemaruja@gmail.com </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container black-text">
+                <center>Copyright 2017 © Donde Maruja</center>
+            </div>
+        </div>
+    </footer>
+
+</html>
